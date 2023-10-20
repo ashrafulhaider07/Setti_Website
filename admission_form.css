@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background: #f9f9f9;
+    border-bottom: 1px solid rgb(208, 207, 207);
+}
+.about-img{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.main-text h1{
+    text-align: center;
+    padding: 60px 0;
+    font-weight: bold;
+    /* filter: drop-shadow(1px 1px .5px); */
+    color: rgb(0, 106, 227);
+}
+
+.course-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(0, 106, 227);
+    border-radius: 5px;
+    color: white;
+    transition: all .4s ease;
+    text-decoration: none;
+    transition: .4s ease;
+    background-color: rgb(0, 106, 227);
+    background-size: 300px;
+}
+.course-btn:active{
+    scale: 0.5;
+}

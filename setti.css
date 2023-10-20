@@ -1,0 +1,203 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* Header and Nav Section Start */
+.logo-gap{
+    padding-right: 20px;
+}
+#navbar{
+    background: #f9f9f9;
+    /* position: fixed;
+    width: 100%;
+    z-index: 1; */
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+
+/* Slider */ /* Slider */ /* Slider */
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    margin-bottom: 27vh;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}
+.carousel-caption h5{
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.carousel-caption p{
+    font-size: 20px;
+    padding: 3px 0;
+}
+.course-btn-header{
+    border: none;
+    background-color: rgb(0, 106, 227);
+    border-radius: 5px;
+    color: white;
+    transition: all .4s ease;
+    text-decoration: none;
+    transition: .4s ease;
+    background: linear-gradient(to left, rgb(0, 162, 255), rgb(0, 0, 75), rgb(0, 162, 255));
+    background-size: 300px;
+}
+.course-btn-header:hover{
+    transform: scale(1.1);
+    background-position: right;
+}
+.course-btn-header a{
+    display: block;
+    color: #f9f9f9;
+     padding: 10px 20px;
+    text-decoration: none;
+}
+/* Slider */ /* Slider */ /* Slider */
+
+
+
+/* Responsive Image Content Start */
+@media (max-width:1574px){
+    .carousel-item{
+        height: 70vh;
+    }
+    .carousel-caption{
+        margin-bottom: 24vh;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+    }
+}
+
+@media (max-width:1384px){
+    .carousel-item{
+        height: 50vh;
+    }
+
+     .carousel-caption{
+        margin-bottom: 15vh;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+    }
+     .carousel-caption h5{
+        font-size: 75px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        font-size: 18px;
+        padding: 2px 0;
+    }
+}
+
+@media (max-width:1158px){
+    .carousel-item{
+        height: 30vh;
+    }
+
+     .carousel-caption{
+        margin-bottom: 6vh;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+    }
+     .carousel-caption h5{
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+        padding: 0px 0;
+    }
+}
+@media (max-width:1158px){
+    .carousel-item{
+        height: 5vh;
+    }
+}
+/* Responsive Image Content Start */
+
+/* Header and Nav Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Section Start */ /* Main Section Start */ 
+
+
+/* Main text/heading Start */
+.main-text h1{
+    text-align: center;
+    padding: 60px 0;
+    font-weight: bold;
+    /* filter: drop-shadow(1px 1px .5px); */
+    color: rgb(0, 106, 227);
+}
+
+@media (max-width:1244px){
+    .main-text h1{
+    padding: 30px 0;  
+}
+}
+
+@media (max-width:752px){
+    .main-text h1{
+    padding: 25px 0 10px;  
+}
+}
+/* Main text/heading End */
+
+
+
+/* Course Section Start */
+.course-btn{
+    border: none;
+    background-color: rgb(0, 106, 227);
+    border-radius: 5px;
+    color: white;
+    transition: all .4s ease;
+    text-decoration: none;
+    transition: .4s ease;
+    background: linear-gradient(to left, rgb(0, 162, 255), rgb(0, 0, 75), rgb(0, 162, 255));
+    background-size: 300px;
+}
+.course-btn:hover{
+    transform: scale(1.1);
+    background-position: right;
+}
+.course-btn a{
+    display: block;
+    color: #f9f9f9;
+    text-decoration: none;
+    padding: 10px 20px;
+}
